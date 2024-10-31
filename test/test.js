@@ -7,3 +7,9 @@ describe('First two terms', function() {
         assert.strictEqual(main.factNum(1), 1);
     });
 });
+
+describe('Negative numbers', function() {
+    it('should return undefined', function() {
+        assert.strictEqual(main.factNum(-1), undefined);
+    });
+});

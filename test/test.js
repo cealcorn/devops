@@ -1,4 +1,4 @@
-var main = require('/workspaces/devops/index.js');
+var main = require('../index.js');
 var assert = require('assert');
 
 describe('First two terms', function() {

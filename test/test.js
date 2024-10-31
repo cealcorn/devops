@@ -8,6 +8,13 @@ describe('First two terms', function() {
     });
 });
 
+describe('Regular factorial number', function() {
+    it('should return 720 for 6! and 40320 for 8!', function() {
+        assert.strictEqual(main.factNum(6), 720);
+        assert.strictEqual(main.factNum(8), 40320);
+    });
+});
+
 describe('Negative numbers', function() {
     it('should return undefined', function() {
         assert.strictEqual(main.factNum(-1), undefined);
